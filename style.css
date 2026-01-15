@@ -38,6 +38,9 @@
 
     /* For-Fotter */
     --footer-small-text: #D9DBE1;
+
+    /* Top-Bottom Border-Color */
+    --border-clr: rgba(128, 128, 128, 0.247);
 }
 
 a {
@@ -114,7 +117,7 @@ nav .nav-links i {
 }
 
 
-
+/* Hero-Content */
 .hero-container .hero-content {
     width: 50%;
     
@@ -132,6 +135,8 @@ nav .nav-links i {
     margin: 0.7rem 0;
 }
 
+
+/* Hero-Img */
 .hero-container .hero-img {
     width: 40%;
     display: flex;
@@ -146,3 +151,24 @@ nav .nav-links i {
 
 
 
+/* Main Section | Brand-Section */
+.brand-container {
+    /* background-color: wheat; */
+    border-top: 1px solid var(--border-clr);
+    border-bottom: 1px solid var(--border-clr);
+    padding: 1.4rem 0;
+    margin-bottom: 5rem;
+}
+
+.brand-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    gap: 2rem;
+}
+
+.brand-images img {
+    width: 5rem;
+}
