@@ -44,6 +44,28 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    padding: 0.63rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: var(--pink);
+    color: var(--pure-white);
+    font-weight: 700;
+    font-size: 0.87rem;
+    box-shadow: 1px 1px 3px var(--primary-color-b);
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.btn i {
+    margin-left: 0.3rem;
+    font-size: 0.89rem;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+}
+
 
 /* Header | Navber-Section */
 header {
@@ -76,6 +98,50 @@ nav .nav-links a {
 nav .nav-links i {
     margin-left: 1rem;
     font-size: 1.02rem;
+}
+
+/* Hero-Section */
+
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(./images/Circle\ design.png);
+    background-repeat: no-repeat;
+    background-position:  right center;
+    padding: 5rem 0;
+    color: var(--primary-color-b);
+}
+
+
+
+.hero-container .hero-content {
+    width: 50%;
+    
+}
+
+.hero-container h2 {
+    font-size: 2.82rem;
+    line-height: 3.44rem;
+}
+
+.hero-container p {
+    width: 80%;
+    font-size: 0.87rem;
+    font-weight: 500;
+    margin: 0.7rem 0;
+}
+
+.hero-container .hero-img {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+.hero-container .hero-img img {
+    width: 90%;
 }
 
 
