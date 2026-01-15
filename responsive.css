@@ -32,6 +32,7 @@
         flex-direction: column-reverse;
         text-align: center;
         background-position: top center;
+        background-size: contain;
         margin-top: 2rem;
     }
 
@@ -52,8 +53,12 @@
 
     /* Hero-Img */
     .hero-container .hero-img {
-        width: 80%;
+        width: 100%;
     } 
+
+    .hero-container .hero-img img {
+        width: 80%;
+    }
 
     .hero-container .hero-img:hover {
         transform: none;

@@ -144,6 +144,7 @@ nav .nav-links i:hover {
     background: url(./images/Circle\ design.png);
     background-repeat: no-repeat;
     background-position:  right center;
+    /* background-size: contain; */
     padding: 5rem 0;
     color: var(--primary-color-b);
 }
@@ -169,7 +170,7 @@ nav .nav-links i:hover {
 
 /* Hero-Img */
 .hero-container .hero-img {
-    width: 40%;
+    /* width: 40%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,7 +187,7 @@ nav .nav-links i:hover {
 }
 
 .hero-container .hero-img img:hover {
-    width: 85%;
+    width: 95%;
 }
 
 
