@@ -16,8 +16,8 @@
 }
 
 .section-center-2 {
-    width: 88%;
-    max-width: 1130px;
+    width: 86%;
+    max-width: 1102px;
     margin: 0 auto;
 }
 
@@ -203,12 +203,12 @@ nav .nav-links i {
 .card-container .card {
     box-shadow: 0 0 40px #00000015;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
 .card-container .card img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 0.4rem;
 }
 
 .card-container .card .prod-nm {
@@ -259,4 +259,44 @@ nav .nav-links i {
 
 .collection > a:hover {
     text-decoration: underline;
+}
+
+
+
+/* Fetures Section */
+.fetures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 6rem auto;
+}
+
+.fetures .fetures-img {
+    width: 40%;
+}
+
+.fetures .fetures-img img {
+    width: 90%;
+}
+
+.fetures .fetures-content {
+    width: 55%;
+}
+
+.fetures .fetures-content h2 {
+    font-size: 2.1rem;
+    color: var(--prod-lg-text);
+}
+
+.fetures .fetures-content p {
+    width: 80%;
+    color: var(--prod-small-text);
+    font-size: 0.88rem;
+    font-weight: 650;
+    line-height: 1.44rem;
+    margin: 1rem 0;
+}
+
+.sq-btn {
+    border-radius: 1px;
 }
