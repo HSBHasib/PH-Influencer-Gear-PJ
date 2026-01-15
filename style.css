@@ -21,6 +21,12 @@
     margin: 0 auto;
 }
 
+.section-center-3 {
+    width: 82%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
 :root {
     /* Uses in Multiple Sections */
     --pure-black: #000;
@@ -29,8 +35,11 @@
     --pink: #E02C6D;
 
     /* For-Cards */
+    --card-lg-text: #18191F;
     --cards-small-text: #787885;
-    --rating-color: #5E6366;
+    --rating-text: #5E6366;
+    --rating-star: #FB8200;
+
 
     /* For-Products */
     --prod-lg-text: #0A0826;
@@ -55,7 +64,6 @@ a {
     color: var(--pure-white);
     font-weight: 700;
     font-size: 0.87rem;
-    box-shadow: 1px 1px 3px var(--primary-color-b);
     transition: all 0.3s linear;
     cursor: pointer;
 }
@@ -153,11 +161,10 @@ nav .nav-links i {
 
 /* Main Section | Brand-Section */
 .brand-container {
-    /* background-color: wheat; */
     border-top: 1px solid var(--border-clr);
     border-bottom: 1px solid var(--border-clr);
     padding: 1.4rem 0;
-    margin-bottom: 5rem;
+    margin: 5rem auto;
 }
 
 .brand-images {
@@ -171,4 +178,85 @@ nav .nav-links i {
 
 .brand-images img {
     width: 5rem;
+}
+
+
+
+/* Popular Collection Section */
+.collection {
+    text-align: end;
+}
+
+.collection-container {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.card-container {
+    text-align: start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.87rem;
+    margin-top: 1.87rem;
+}
+
+.card-container .card {
+    box-shadow: 0 0 40px #00000015;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.card-container .card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-container .card .prod-nm {
+    font-size: 1.5rem;
+    color: var(--cards-lg-text);
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.card-container .card .price {
+    font-size: 1.1rem;
+    color: var(--pure-black);
+    font-family: "Inter", sans-serif;
+    margin: 0.5rem 0
+}
+
+.card-container .card .rating i {
+    font-size: 0.7rem;
+    color: var(--rating-star);
+    margin-bottom: 0.4rem;
+}
+
+.card-container .card .rating
+.fa-star-half-stroke {
+    margin-right: 0.4rem;
+}
+
+.card-container .card .rating > span {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: var(--rating-text);
+}
+
+.card-container .card .prod-info {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--cards-small-text);
+    font-family: "Inter", sans-serif;
+    line-height: 1.25rem;
+}
+
+.collection > a {
+    color: var(--pink);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.collection > a:hover {
+    text-decoration: underline;
 }
