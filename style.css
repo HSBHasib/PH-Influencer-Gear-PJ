@@ -9,6 +9,10 @@
 }
 
 /* Common Style */
+.hide {
+    display: none;
+}
+
 .section-center-1 {
     width: 92%;
     max-width: 1180px;
@@ -105,6 +109,7 @@ nav a {
 
 nav .nav-logo a {
     font-weight: 700;
+    font-size: 1.15rem;
 }
 
 nav .nav-links a {
@@ -146,8 +151,7 @@ nav .nav-links i:hover {
 
 /* Hero-Content */
 .hero-container .hero-content {
-    width: 50%;
-    
+    width: 50%; 
 }
 
 .hero-container h2 {
@@ -170,7 +174,6 @@ nav .nav-links i:hover {
     align-items: center;
     justify-content: center;
     transition: all 0.4s linear;
-    
 } 
 
 .hero-container .hero-img img {

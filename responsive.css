@@ -1,0 +1,149 @@
+@media screen and (max-width: 576px) {
+    
+    /* Common Style */
+    .btn {
+    padding: 0.85rem 1.4rem;
+    font-size: 1rem;
+    }
+
+    .btn:active {
+        transform: scale(1.02);
+        background-color: var(--pink-hover-effect);
+    }
+    
+
+    /* Header | Navber-Section */
+    .bar-icon {
+        display: initial;
+    }
+
+    nav .nav-links a, 
+    .fa-magnifying-glass {
+        display: none;
+    }
+
+    .bar-icon i,
+    nav .nav-links i{
+        font-size: 1.3rem;
+    }
+
+    /* hero-section */
+    .hero-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        background-position: top center;
+        margin-top: 2rem;
+    }
+
+    .hero-container .hero-content {
+        width: 100%; 
+        margin-top: 6rem;
+    }
+
+    .hero-container h2 {
+        font-size: 2.75rem;
+    }
+
+    .hero-container p {
+        width:80%;
+        margin: 1.3rem auto;
+        font-size: 1rem;
+    }
+
+    /* Hero-Img */
+    .hero-container .hero-img {
+        width: 80%;
+    } 
+
+    .hero-container .hero-img:hover {
+        transform: none;
+    }
+
+    .hero-container .hero-img img:hover {
+        width: 80%;
+    }
+
+
+    /* Main Section | Brand-Section */
+    .brand-container {
+        margin: 2rem auto 5rem;
+    }
+
+    .brand-images:active {
+        transform: scale(1.03);
+    }
+
+    .brand-images img:active {
+        transform: scale(1.08);
+    }
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1.37rem;
+    }
+
+
+    .card-container .card:active {
+        transform: scale(1.015);
+        box-shadow: 3px 3px 10px var(--card-box-shadow-Hv);
+    }
+
+    .card-container .card .prod-nm {
+        font-size: 1.7rem;
+    }
+
+    .card-container .card .price {
+        font-size: 1.3rem;
+        margin: 0.25rem 0
+    }
+
+    .card-container .card .rating i {
+        margin-bottom: 0.7rem;
+    }
+
+    .card-container .card .prod-info {
+        font-size: 0.95rem;
+        line-height: 1.35rem;
+        font-weight: 500;
+    }
+
+    .collection > a {
+        font-size: 1.05rem;
+    }
+
+
+
+    /* Fetures Section */
+    .fetures {
+        flex-direction: column-reverse;
+        margin: 6rem auto;
+        text-align: center;
+    }
+
+    .fetures .fetures-img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .fetures .fetures-img img {
+        width: 100%;
+    }
+
+    .fetures .fetures-content {
+        width: 100%;
+    }
+
+    .fetures .fetures-content p {
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+
+    /* Footer-Section */
+    .footer-container 
+    .footer-icons
+    .ft-icon:active {
+        transform: scale(1.1);
+    }
+
+}
