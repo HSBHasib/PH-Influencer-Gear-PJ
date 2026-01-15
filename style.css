@@ -33,6 +33,7 @@
     --pure-white: #FFF;
     --primary-color-b: #3A3A3A;
     --pink: #E02C6D;
+    --pink-hover-effect:#f52773;
 
     /* For-Cards */
     --card-lg-text: #18191F;
@@ -47,6 +48,7 @@
 
     /* For-Fotter */
     --footer-small-text: #D9DBE1;
+    --footer-bg: #0A0826;
 
     /* Top-Bottom Border-Color */
     --border-clr: rgba(128, 128, 128, 0.247);
@@ -75,6 +77,7 @@ a {
 
 .btn:hover {
     transform: scale(1.02);
+    background-color: var(--pink-hover-effect);
 }
 
 
@@ -259,6 +262,7 @@ nav .nav-links i {
 
 .collection > a:hover {
     text-decoration: underline;
+    color: var(--pink-hover-effect);
 }
 
 
@@ -300,3 +304,58 @@ nav .nav-links i {
 .sq-btn {
     border-radius: 1px;
 }
+
+
+
+/* Footer-Section */
+.footer-container {
+    background-color: var(--footer-bg);
+    color: var(--pure-white);
+    text-align: center;
+    padding: 3.12rem 0;
+}
+
+.footer-container h3 {
+   font-size: 1.36rem;
+}
+
+.footer-container p {
+   font-size: 13px;
+   color: var(--footer-small-text);
+   margin: 0.3rem 0 0.8rem;
+}
+
+.footer-container .footer-icons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+.footer-container 
+.footer-icons
+.ft-icon {
+   width: 2rem;
+   height: 2rem;
+   background-color: var(--border-clr);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   transition: all 0.3s linear;
+   cursor: pointer;
+}
+
+.footer-container 
+.footer-icons
+.ft-icon i {
+   width: 100%;
+}
+
+.footer-container 
+.footer-icons
+.ft-icon:hover {
+    transform: scale(1.1);
+}
+
+
