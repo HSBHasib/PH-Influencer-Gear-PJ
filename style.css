@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Poppins-font {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Common Style */
+.section-center-1 {
+    width: 92%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.section-center-2 {
+    width: 88%;
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+:root {
+    /* Uses in Multiple Sections */
+    --pure-black: #000;
+    --pure-white: #FFF;
+    --primary-color-b: #3A3A3A;
+    --pink: #E02C6D;
+
+    /* For-Cards */
+    --cards-small-text: #787885;
+    --rating-color: #5E6366;
+
+    /* For-Products */
+    --prod-lg-text: #0A0826;
+    --prod-small-text: #6C6C6C;
+
+    /* For-Fotter */
+    --footer-small-text: #D9DBE1;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header | Navber-Section */
+header {
+    margin: 5rem 0 6rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0 ;
+    color: var(--pure-black);
+}
+
+nav a {
+    color: var(--primary-color-b);
+    font-size: 1.07rem;
+}
+
+nav .nav-logo a {
+    font-weight: 700;
+}
+
+nav .nav-links a {
+    font-weight: 500;
+    margin-left: 2rem;
+    font-size: 1.02rem;
+}
+
+nav .nav-links i {
+    margin-left: 1rem;
+    font-size: 1.02rem;
+}
+
+
+
