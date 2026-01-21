@@ -216,10 +216,6 @@ nav .nav-links i:hover {
     cursor: pointer;
 }
 
-.brand-images:hover {
-    transform: scale(1.03);
-}
-
 .brand-images img:hover {
     transform: scale(1.08);
 }
